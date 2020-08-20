@@ -1,4 +1,4 @@
-# terraform-iaac-2020
+# terraform-aws-vpc
 ## Usage of this module 
 ### Create environments.tfvars file  with the following content
 
