@@ -5,6 +5,7 @@
 ```
 module "vpc" {
     source                      =   "terraform/vpc/aws"
+    version                     =   "1.0.0"
     region                      =   "${var.region}"
     cidr_block                  =   "${var.cidr_block}"       
     public_cidr1                =   "${var.public_cidr1}"   
