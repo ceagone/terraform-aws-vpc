@@ -42,3 +42,4 @@ terraform init
 ```
 ```
 terraform apply -var-file environment.tfvars
+```
