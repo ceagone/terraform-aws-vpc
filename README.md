@@ -16,7 +16,9 @@ module "vpc" {
     tags                        =   "${var.tags}"
 }
 
-### Create environments.tfvars file  with the following content
+```
+
+### Create environments.tfvars file  with the following content. The below is just a sample of your environments.tfvars. You can customize it to meet your requirement.
 
 ```
 region                      =   "us-east-1"
@@ -33,6 +35,9 @@ private_cidr3               =   "10.0.3.0/24"
 ```
 
 
-### Please run 
+### Run the following commands
 ``` 
+terraform init
+```
+```
 terraform apply -var-file environment.tfvars
